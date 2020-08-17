@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1><span class="title">Todo</span>List</h1>
+    <div class="inputDiv">
+        <input type="text" class="input" placeholder="What Do You Want to Do..." id="field">
+        <button class="add" id="addBtn" onclick="addItem()"><i class="fas fa-plus">Add</i></button>
+        <button class="add" id="addBtn" onclick="disAll()"><i class="fas fa-plus">DeleteAll</i></button>
+       
+    </div>
+    <div class="listClass" id="listID">
+        <ul class="list" id="ulId">
+
+        </ul>
+    </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
